@@ -1,0 +1,17 @@
+{
+  "name": "workspace",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "seekdesign <martinretrou@hotmail.fr>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Seekdesign/cleanslate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
