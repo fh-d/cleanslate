@@ -1,0 +1,42 @@
+$brand-color: #000;
+$color: #ACA3FA;
+$step: 1;
+
+@while $step <=9  
+  {
+  .darken li:nth-child(#{$step}) {
+    background-color: darken($color, ($step * 3%));
+  }
+
+  $step: $step + 1;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+  padding: 2em 5em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  
+}
+
+.colorsquare {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  .-item {
+  max-width: 50%;
+}
+
+}
+
+ 

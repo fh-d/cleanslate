@@ -1,0 +1,46 @@
+.darken li:nth-child(1) {
+  background-color: #9f94f9; }
+
+.darken li:nth-child(2) {
+  background-color: #9286f8; }
+
+.darken li:nth-child(3) {
+  background-color: #8577f8; }
+
+.darken li:nth-child(4) {
+  background-color: #7869f7; }
+
+.darken li:nth-child(5) {
+  background-color: #6b5af6; }
+
+.darken li:nth-child(6) {
+  background-color: #5d4cf5; }
+
+.darken li:nth-child(7) {
+  background-color: #503df4; }
+
+.darken li:nth-child(8) {
+  background-color: #432ff4; }
+
+.darken li:nth-child(9) {
+  background-color: #3620f3; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 2em 5em; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline-block;
+  height: 50px;
+  width: 50px; }
+
+.colorsquare {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .colorsquare .-item {
+    max-width: 50%; }
